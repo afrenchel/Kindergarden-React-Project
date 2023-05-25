@@ -1,0 +1,49 @@
+.header-container {
+  background-color: #ea8fea;
+  display: flex;
+  justify-content: space-around;
+  height: 12vh;
+  font-size: 2.7rem;
+  color: #fff6bf;
+  position: sticky;
+  .logo {
+    align-self: center;
+    margin-left: -5rem;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-items {
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      gap: 2rem;
+
+      li:hover {
+        transform: scale(1.1);
+        transition: 200ms ease-out;
+        cursor: pointer;
+      }
+    }
+
+    .btn-contact {
+      margin-left: 5rem;
+      padding: 1rem;
+      font-size: 1.6rem;
+      background-color: #fff6bf;
+      border-radius: 5px 10px 15px 30px;
+      color: #ff55bb;
+      border: 2px dotted #ea8fea;
+      font-weight: 600;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 200ms ease-out;
+        cursor: pointer;
+      }
+    }
+  }
+}

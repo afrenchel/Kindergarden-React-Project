@@ -1,0 +1,23 @@
+.hero-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.hero-img {
+  width: 450px;
+  height: 450px;
+  background-size: contain;
+}
+.hero-left h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+.hero-left p {
+  font-size: 1.4rem;
+  border: 2px dotted #ea8fea;
+  padding: 2rem;
+  background-color: #fff6bf;
+  color: #ff55bb;
+  border-radius: 5px 10px 15px 30px;
+  font-weight: 600;
+}

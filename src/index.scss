@@ -1,0 +1,13 @@
+:root {
+  /* Base settings*/
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Annie Use Your Telescope", cursive;
+  }
+
+  font-size: 62.5%;
+}
